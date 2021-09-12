@@ -3,14 +3,93 @@
 
 <head>
     <!-- header -->
-    <?php include 'header.php'?>
+    <meta charset="utf-8">
+    <title>Ifar Ziady - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logoGUA.png" type="image/x-icon">
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,600,500,700,800,900|Karla:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- goggle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <!-- Startup 3 CSS (Styles for all blocks) -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bubbles.css" rel="stylesheet" />
+    <link href="style-navbar/css/style.css" rel="stylesheet" />
+    <!-- jQuery 3.3.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "532c0b98-2a5a-4b45-b268-d8556741ee90";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+    <!-- Bootstrap 4.3.1 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- Google maps JS API -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+    <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- Startup 3 JS (Custom js for all blocks) -->
+    <script src="js/script.js"></script>
+    <!-- navbar -->
+
+    <!-- <?php include 'header.php'?> -->
     <!-- header -->
 </head>
 
 <body>
     <div class="">
         <!-- navbar -->
-        <?php include 'navbar.php'?>
+        <nav id="colorlib-main-nav" role="navigation">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+            <div class="js-fullheight colorlib-table">
+                <div class="img" style="background-color:rgba(0, 0, 0, 0) !important;"></div>
+                <div class="colorlib-table-cell js-fullheight">
+                    <div class="row no-gutters">
+                        <div class="col-md-12 text-center">
+                            <ul>
+                                <a style="color: white; " href="index " class="logo link color-main "><img class="logo" src="img/logoGUA.png" alt=""></a>
+                                <br><br>
+                                <li><a href="about">About</a>&nbsp;<a href="skill">Ability</a>&nbsp;<a href="experience">Experience</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <?php include 'navbar.php'?> -->
         <!-- navbar -->
         <div id="colorlib-page">
             <header>
@@ -175,20 +254,60 @@
             </section>
 
             <!-- bubbles -->
-            <?php include 'bubbles.php'?>
+            <ul class="bg-bubbles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <!-- <?php include 'bubbles.php'?> -->
             <!-- bubbles -->
             <!-- footer -->
-            <?php include 'footer.php'?>
+            <footer class="footer_1 bg-light pt-90 pb-35 text-center">
+                <div class="container px-xl-0">
+                    <div class="row justify-content-between align-items-center lh-40 links">
+                        <div class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0">
+                            <a style=" color: #949494;font-family: 'Tenali Ramakrishna', sans-serif;font-size: 18px; " href="# " class="mr-15 link color-main ">&copy;COPYRIGHT ZY | 2021</a>
+                        </div>
+                        <div class="mb-10 mb-lg-0 col-lg-auto order-0 ">
+                            <a style="color: white; " href="index " class="logo link color-main "><img class="logo" src="img/logoGUA.png" alt=""></a>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0 ">
+
+                            <a style="color: white;" target="_blank" href="https://www.instagram.com/ifrzdy_/" class="mx-15 link color-main"><i class="fab fa-instagram"></i></a>
+                            <a style="color: white;" target="_blank" href="https://www.youtube.com/channel/UCl0ywlNWhit6UlDy1uAf4aA" class="mx-15 link color-main"><i class="fab fa-youtube"></i></a>
+                            <a style="color: white;" target="_blank" href="https://github.com/GhifarZy" class="ml-15 link color-main"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="mt-10 col-xl-4 col-lg-5 col-md-6 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- <?php include 'footer.php'?> -->
             <!-- footer -->
             </div>
-            <?php include 'script-navbar.php'?>
+            <!-- <?php include 'script-navbar.php'?> -->
+            <script src="style-navbar/js/jquery.min.js"></script>
+            <script src="style-navbar/js/popper.js"></script>
+            <script src="style-navbar/js/bootstrap.min.js"></script>
+            <script src="style-navbar/js/main.js"></script>
+
 </body>
 
 <style>
     .bg-light {
         background-color: rgb(0, 0, 0) !important;
     }
-
+    
     @media only screen and (max-width: 600px) {
         img {
             width: 237px !important;
@@ -199,19 +318,67 @@
             padding: -3px;
         }
     }
-
+    
     img {
         width: 340px;
         margin-bottom: 50px !important;
         margin-top: auto;
     }
-
+    
     .div {
         padding: 47px;
     }
-
+    
     html {
         background-color: black !important;
+    }
+    
+    .colorlib-nav-toggle i::before,
+    .colorlib-nav-toggle i::after {
+        content: '';
+        width: 32px;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    
+    .colorlib-nav-toggle i {
+        position: relative;
+        display: inline-block;
+        width: 22px;
+        height: 5px;
+        color: #000;
+        font: bold 14px/.4 Helvetica;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: #fff;
+        -webkit-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        footer {
+            padding-top: 5px !important;
+            position: absolute;
+            z-index: 3;
+        }
+        .logo {
+            width: 40px !important;
+            margin-bottom: -98px !important;
+        }
+    }
+    
+    .logo {
+        width: 40px !important;
+    }
+    
+    footer {
+        padding-top: auto;
     }
 </style>
 
