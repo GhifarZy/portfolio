@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteRule ^index                     index.php [NC,L]
+RewriteRule ^index                     home.php [NC,L]
 RewriteRule ^about                     about.php [NC,L]
 RewriteRule ^skill                     skill.php [NC,L]
 RewriteRule ^education                 education.php [NC,L]
